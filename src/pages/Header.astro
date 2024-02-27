@@ -1,0 +1,38 @@
+
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="{% url 'portal:index' %}"> <img alt="Brand"
+                                                                  src="./../public/portal/img/unidom_logo_2018_path.svg"
+                                                                  height="30"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Oferta</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                 <a class="dropdown-item"
+                       href="/dzialki/">Działki budowlane</a>
+                    <a class="dropdown-item"
+                       href="/projekty/}">Projekty domów</a>
+                   <a class="dropdown-item"
+                     href="/wycena/">Wycena budowy domu</a>
+                    <a class="dropdown-item"
+                       href="/budowa/">Budowa domów</a>
+                    <a class="dropdown-item"
+                       href="/materialy/">Materiały budowlane</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"
+                    href="/realizacje">Realizacje</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href=/onas/">O nas</a></li>
+            <li class="active"><a class="nav-link" href="/kontakt/">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+</nav>

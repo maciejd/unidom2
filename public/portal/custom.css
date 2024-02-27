@@ -1,0 +1,30 @@
+#map-container {
+    height: 458px
+}
+
+.jumbotron {
+    margin-top: 5rem;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.video {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    display: block;
+    /*height: 100vh*/
+}
+.carousel-caption > p,
+.carousel-caption > h1 {
+    text-shadow: 1px 1px #000000;
+}
+
+.no-carousel {
+    padding-top: 66px;
+    padding-bottom: 3rem;
+}

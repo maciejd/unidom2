@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="443.33038"
+   height="145.19162"
+   id="svg5324"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="unidom_logo_2018_path.svg"
+   inkscape:export-filename="D:\Dropbox\prv\unidom\unidom2.png"
+   inkscape:export-xdpi="52.67915"
+   inkscape:export-ydpi="52.67915">
+  <defs
+     id="defs5326">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective5332" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3048842"
+     inkscape:cx="105.60353"
+     inkscape:cy="-74.264066"
+     inkscape:document-units="px"
+     inkscape:current-layer="text5848"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5846"
+       originx="-8.4067777"
+       originy="-902.5" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5329">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.4067777,-4.6705606)">
+    <path
+       style="fill:none;stroke:#63a900;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50,72.362192 V 142.36218 H 410 V 72.362192 m -400,-10 230,-50 210,50"
+       id="path5334"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="D:\Documents and Settings\Maciek\Pulpit\unidom2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:connector-curvature="0" />
+    <g
+       aria-label="UNIDOM"
+       transform="scale(1.037733,0.96363901)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none"
+       id="text5848">
+      <path
+         d="m 71.522477,67.132421 h 8.417198 v 42.212249 q 0,5.63952 3.577309,9.301 3.577308,3.61939 9.469347,3.61939 6.228726,0 9.806039,-3.53522 3.5773,-3.53522 3.5773,-9.5956 V 67.132421 h 8.4172 v 42.885619 q 0,9.34309 -5.84995,14.60384 -5.80787,5.21866 -15.866417,5.21866 -10.353153,0 -15.950589,-5.13449 -5.597437,-5.13449 -5.597437,-14.73009 z"
+         style="font-size:86.19210052px;line-height:1"
+         id="path3766" />
+      <path
+         d="M 167.2681,129.63011 135.40901,84.556019 v 44.232371 h -7.99634 V 67.132421 h 3.36688 l 31.01737,42.633109 V 67.132421 h 7.99634 v 62.497689 z"
+         style="font-size:86.19210052px;line-height:1"
+         id="path3768" />
+      <path
+         d="M 183.93415,128.78839 V 67.132421 h 8.41719 v 61.655969 z"
+         style="font-size:86.19210052px;line-height:1"
+         id="path3770" />
+      <path
+         d="M 218.94968,128.78839 H 206.53432 V 67.132421 q 11.86825,-0.42086 15.19304,-0.42086 12.9204,0 20.45379,7.870079 7.53339,7.827994 7.53339,20.87465 0,33.3321 -30.76486,33.3321 z m -3.99816,-54.080492 v 46.084152 q 2.81976,0.42086 6.98627,0.42086 8.83806,0 13.88837,-6.6075 5.05032,-6.64958 5.05032,-18.433658 0,-21.884714 -19.65415,-21.884714 -1.17841,0 -6.27081,0.42086 z"
+         style="font-size:86.19210052px;line-height:1"
+         id="path3772" />
+      <path
+         d="m 256.4483,97.434331 q 0,-13.383344 6.69167,-22.389745 6.73376,-9.006401 18.13906,-9.006401 12.83623,0 19.65416,8.290939 6.86001,8.29094 6.86001,23.105207 0,15.193039 -6.86001,23.820669 -6.86002,8.58554 -19.65416,8.58554 -11.65782,0 -18.26532,-9.09057 -6.56541,-9.09058 -6.56541,-23.315639 z m 8.83806,0 q 0,10.605669 4.16651,17.718199 4.2086,7.11253 11.82616,7.11253 8.62763,0 13.13083,-6.52332 4.54529,-6.52333 4.54529,-18.307409 0,-23.820668 -17.67612,-23.820668 -7.82799,0 -11.91033,6.39707 -4.08234,6.39707 -4.08234,17.423598 z"
+         style="font-size:86.19210052px;line-height:1"
+         id="path3774" />
+      <path
+         d="m 363.89382,128.78839 -7.32296,-39.602912 -13.46752,40.444632 h -2.1043 l -13.84629,-40.444632 -7.15461,39.602912 h -7.99634 l 11.53156,-61.655969 h 3.82982 l 14.68801,44.989919 13.55169,-44.989919 h 3.78774 l 12.49954,61.655969 z"
+         style="font-size:86.19210052px;line-height:1"
+         id="path3776" />
+    </g>
+  </g>
+</svg>
