@@ -1,6 +1,6 @@
 ---
-import BaseLayout from './BaseLayout.astro';
-import BaseVideo from './BaseVideo.astro'
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseVideo from '../components/BaseVideo.astro'
 ---
 
 <!-- import base_video from '../components/base_video.astro';
@@ -17,7 +17,7 @@ import localBirdImage from '../../images/subfolder/localBirdImage.png'; --><!-- 
         <div class="col-lg-4 offset-lg-1">
             <img
                 class="img-rounded"
-                src="../../public/portal/anni.png"
+                src="/assets/img/anni.png"
                 alt=""
                 style="height: 100px;"
             />
@@ -30,7 +30,7 @@ import localBirdImage from '../../images/subfolder/localBirdImage.png'; --><!-- 
         <div class="col-lg-4 offset-lg-2">
             <img
                 class="img-rounded"
-                src="../../public/portal/ladny_dom_logo.jpg"
+                src="/assets/img/ladny_dom_logo.jpg"
                 alt=""
             />
             <h2>Najwyższa jakość</h2>
@@ -55,7 +55,7 @@ import localBirdImage from '../../images/subfolder/localBirdImage.png'; --><!-- 
                 umożliwiamy realizację projektu w założonym budżecie i czasie.
             </p>
             <p class="lead">
-                Służymy pomocą już w momencie wyboru <a
+                Służymy pomocą już w momencie wyboru <a class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
                     href="{% url 'portal:dzialki' %}"
                 >
                     działki</a
@@ -68,7 +68,7 @@ import localBirdImage from '../../images/subfolder/localBirdImage.png'; --><!-- 
         <div class="col-md-5">
             <img
                 class="featurette-image img-fluid mx-auto"
-                src="../../public/portal/img/index_1.jpg"
+                src="/assets/img/index_1.jpg"
                 alt="Klienci dyskutujący nad makietą domu jednorodzinnego"
             />
         </div>
@@ -94,7 +94,7 @@ import localBirdImage from '../../images/subfolder/localBirdImage.png'; --><!-- 
         <div class="col-md-5 order-md-1">
             <img
                 class="featurette-image img-fluid mx-auto"
-                src="../../public/portal/img/index_2.jpg"
+                src="/assets/img/index_2.jpg"
                 alt="Kierownik budowy przed domem w trakcie budowy"
             />
         </div>
@@ -117,7 +117,7 @@ import localBirdImage from '../../images/subfolder/localBirdImage.png'; --><!-- 
         <div class="col-md-5 order-md-1">
             <img
                 class="featurette-image img-fluid mx-auto"
-                src="../../public/portal/img/onas_4.jpg"
+                src="/assets/img/onas_4.jpg"
                 alt="Mapa zakresu działania"
             />
         </div>
