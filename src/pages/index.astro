@@ -1,129 +1,128 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import BaseVideo from '../components/BaseVideo.astro'
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseVideo from "../components/BaseVideo.astro";
 ---
 
-<!-- import base_video from '../components/base_video.astro';
-import { Image } from 'astro:assets';
-import localBirdImage from '../../images/subfolder/localBirdImage.png'; --><!-- {% extends 'portal/base_video.html' %} --><!-- {% load static %}
-
-{% block content %} --><!-- Marketing messaging and featurettes
-     ================================================== --><!-- Wrap the rest of the page in another container to center all the content. -->
 <BaseLayout>
-    <BaseVideo/>
-     <div class="container marketing">
-    <!-- Three columns of text below the carousel -->
-    <div class="row" id="badges">
-        <div class="col-lg-4 offset-lg-1">
-            <img
-                class="img-rounded"
-                src="/assets/img/anni.png"
-                alt=""
-                style="height: 100px;"
-            />
-            <h2>Doświadczenie</h2>
-            <p>
-                Od ponad 20 lat jesteśmy obecni na polskim rynku i pomagamy
-                naszym klientom spełniać marzenia o własnym domu.
-            </p>
+    <BaseVideo />
+    <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row" id="badges">
+            <div class="col-lg-4 offset-lg-1">
+                <img
+                    class="img-rounded"
+                    src="/assets/img/anni.png"
+                    alt=""
+                    style="height: 100px;"
+                />
+                <h2>Doświadczenie</h2>
+                <p>
+                    Od ponad 20 lat jesteśmy obecni na polskim rynku i pomagamy
+                    naszym klientom spełniać marzenia o własnym domu.
+                </p>
+            </div>
+            <div class="col-lg-4 offset-lg-2">
+                <img
+                    class="img-rounded"
+                    src="/assets/img/ladny_dom_logo.jpg"
+                    alt=""
+                />
+                <h2>Najwyższa jakość</h2>
+                <p>
+                    Nasze realizacje zostały wyróżnione publikacją na łamach
+                    miesięcznika Ładny Dom.
+                </p>
+            </div>
         </div>
-        <div class="col-lg-4 offset-lg-2">
-            <img
-                class="img-rounded"
-                src="/assets/img/ladny_dom_logo.jpg"
-                alt=""
-            />
-            <h2>Najwyższa jakość</h2>
-            <p>
-                Nasze realizacje zostały wyróżnione publikacją na łamach
-                miesięcznika Ładny Dom.
-            </p>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">
+                    Planujesz <span class="text-muted">budowę domu?</span>
+                </h2>
+                <p class="lead">
+                    Od ponad 20 lat wspieramy naszych klientów na każdym etapie
+                    budowy wymarzonego domu. Sprawnie nawigujemy przez labirynt
+                    formalności, fachowym doradztwem eliminujemy zbędne ryzyko i
+                    umożliwiamy realizację projektu w założonym budżecie i
+                    czasie.
+                </p>
+                <p class="lead">
+                    Służymy pomocą już w momencie wyboru <a
+                        class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                        href="{% url 'portal:dzialki' %}"
+                    >
+                        działki</a
+                    > budowlanej, <a href="{% url 'portal:projekty' %}"
+                        >projektu</a
+                    >
+                    domu czy doboru
+                    <a href="{% url 'portal:materialy' %}"
+                        >materiałów budowlanych</a
+                    >.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img
+                    class="featurette-image img-fluid mx-auto"
+                    src="/assets/img/index_1.jpg"
+                    alt="Klienci dyskutujący nad makietą domu jednorodzinnego"
+                />
+            </div>
         </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">
+                    Gwarancja <span class="text-muted">jakości</span>
+                </h2>
+                <p class="lead">
+                    Współpracująca z nami od kilkunastu lat, wykwalifikowana i <strong
+                        >sprawdzona kadra pracownicza</strong
+                    >
+                    stanowi fundament naszej firmy i jest gwarancją najwyższej jakości.
+                    Dzięki temu <a href="{% url 'portal:budowa' %}"
+                        >domy, które budujemy</a
+                    > bezproblemowo służą naszym klientom przez długie lata.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img
+                    class="featurette-image img-fluid mx-auto"
+                    src="/assets/img/index_2.jpg"
+                    alt="Kierownik budowy przed domem w trakcie budowy"
+                />
+            </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">
+                    Gdzie <span class="text-muted">budujemy?</span>
+                </h2>
+                <p class="lead">
+                    Budujemy domy na terenie całego województwa <strong
+                        >łódzkiego</strong
+                    >. Jeżeli planujesz budowę domu w
+                    <strong>Łodzi i okolicach</strong>, zachęcamy do <a
+                        href="{% url 'portal:kontakt' %}">kontaktu</a
+                    >.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img
+                    class="featurette-image img-fluid mx-auto"
+                    src="/assets/img/onas_4.jpg"
+                    alt="Mapa zakresu działania"
+                />
+            </div>
+        </div>
+
+        <!-- /container -->
+        <!-- {% endblock %} -->
     </div>
-
-    <hr class="featurette-divider" />
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">
-                Planujesz <span class="text-muted">budowę domu?</span>
-            </h2>
-            <p class="lead">
-                Od ponad 20 lat wspieramy naszych klientów na każdym etapie
-                budowy wymarzonego domu. Sprawnie nawigujemy przez labirynt
-                formalności, fachowym doradztwem eliminujemy zbędne ryzyko i
-                umożliwiamy realizację projektu w założonym budżecie i czasie.
-            </p>
-            <p class="lead">
-                Służymy pomocą już w momencie wyboru <a class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                    href="{% url 'portal:dzialki' %}"
-                >
-                    działki</a
-                > budowlanej, <a href="{% url 'portal:projekty' %}">projektu</a>
-                domu czy doboru
-                <a href="{% url 'portal:materialy' %}">materiałów budowlanych</a
-                >.
-            </p>
-        </div>
-        <div class="col-md-5">
-            <img
-                class="featurette-image img-fluid mx-auto"
-                src="/assets/img/index_1.jpg"
-                alt="Klienci dyskutujący nad makietą domu jednorodzinnego"
-            />
-        </div>
-    </div>
-
-    <hr class="featurette-divider" />
-
-    <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">
-                Gwarancja <span class="text-muted">jakości</span>
-            </h2>
-            <p class="lead">
-                Współpracująca z nami od kilkunastu lat, wykwalifikowana i <strong
-                    >sprawdzona kadra pracownicza</strong
-                >
-                stanowi fundament naszej firmy i jest gwarancją najwyższej jakości.
-                Dzięki temu <a href="{% url 'portal:budowa' %}"
-                    >domy, które budujemy</a
-                > bezproblemowo służą naszym klientom przez długie lata.
-            </p>
-        </div>
-        <div class="col-md-5 order-md-1">
-            <img
-                class="featurette-image img-fluid mx-auto"
-                src="/assets/img/index_2.jpg"
-                alt="Kierownik budowy przed domem w trakcie budowy"
-            />
-        </div>
-    </div>
-    <hr class="featurette-divider" />
-    <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">
-                Gdzie <span class="text-muted">budujemy?</span>
-            </h2>
-            <p class="lead">
-                Budujemy domy na terenie całego województwa <strong
-                    >łódzkiego</strong
-                >. Jeżeli planujesz budowę domu w
-                <strong>Łodzi i okolicach</strong>, zachęcamy do <a
-                    href="{% url 'portal:kontakt' %}">kontaktu</a
-                >.
-            </p>
-        </div>
-        <div class="col-md-5 order-md-1">
-            <img
-                class="featurette-image img-fluid mx-auto"
-                src="/assets/img/onas_4.jpg"
-                alt="Mapa zakresu działania"
-            />
-        </div>
-    </div>
-
-    <!-- /container -->
-    <!-- {% endblock %} -->
-</div>
 </BaseLayout>
