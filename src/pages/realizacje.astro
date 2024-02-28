@@ -1,0 +1,105 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import d1_1_img from "../assets/realizacje/d1-1.jpg";
+import d1_4_img from "../assets/realizacje/d1-4.jpg";
+import d2_4_img from "../assets/realizacje/d2-4.jpg";
+import d2_5_img from "../assets/realizacje/d2-5.jpg";
+import d3_1_img from "../assets/realizacje/d3-1.jpg";
+import d3_2_img from "../assets/realizacje/d3-2.jpg";
+import d4_2_img from "../assets/realizacje/d4-2.jpg";
+import d4_4_img from "../assets/realizacje/d4-4.jpg";
+---
+
+<BaseLayout title="Realizacje | Unidomy.pl">
+    <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+    >
+        <div class="carousel-indicators">
+            <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"></button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img
+                    src={d4_4_img.src}
+                    class="d-block w-100"
+                    alt="Dom z garażem wolnostojącym 1"
+                />
+                <div class="carousel-caption text-right d-none d-md-block">
+                    <h4>Dom z garażem wolnostojącym</h4>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img
+                    src={d4_2_img.src}
+                    class="d-block w-100"
+                    alt="Dom z garażem wolnostojącym 2"
+                />
+                <div class="carousel-caption text-right d-none d-md-block">
+                    <h4>Dom z garażem wolnostojącym</h4>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img
+                    src={d2_4_img.src}
+                    class="d-block w-100"
+                    alt="Dom parterowy z poddaszem użytkowym 1"
+                />
+                <div class="carousel-caption text-right d-none d-md-block">
+                    <h4>Dom parterowy z poddaszem użytkowym</h4>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img
+                    src={d2_5_img.src}
+                    class="d-block w-100"
+                    alt="Dom parterowy z poddaszem użytkowym 2"
+                />
+                <div class="carousel-caption text-right d-none d-md-block">
+                    <h4>Dom parterowy z poddaszem użytkowym</h4>
+                </div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Poprzedni</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Następny</span>
+        </button>
+    </div>
+</BaseLayout>
