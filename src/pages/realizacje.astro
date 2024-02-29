@@ -14,7 +14,7 @@ import d4_4_img from "../assets/realizacje/d4-4.jpg";
 <BaseLayout title="Realizacje | Unidomy.pl">
     <div
         id="carouselExampleIndicators"
-        class="carousel slide carousel-fade"
+        class="carousel slide carousel-fade d-none d-md-block"
         data-bs-ride="carousel"
     >
         <div class="carousel-indicators">
@@ -101,5 +101,52 @@ import d4_4_img from "../assets/realizacje/d4-4.jpg";
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Następny</span>
         </button>
+    </div>
+    <div class="container marketing d-block d-md-none">
+        <div class="row mt-5"></div>
+        <div class="row">
+            <!-- loop -->
+            <div class="col-sm-12 mt-3">
+                <div class="card">
+                    <img
+                        class="card-img-top"
+                        alt=""
+                        src={d4_4_img.src}
+                        data-holder-rendered="true"
+                    />
+                </div>
+                <div class="col-sm-12 mt-3">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            alt=""
+                            src={d4_2_img.src}
+                            data-holder-rendered="true"
+                        />
+                    </div>
+                    <div class="col-sm-12 mt-3">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                alt=""
+                                src={d2_4_img.src}
+                                data-holder-rendered="true"
+                            />
+                        </div>
+                        <div class="col-sm-12 mt-3">
+                            <div class="card">
+                                <img
+                                    class="card-img-top"
+                                    alt=""
+                                    src={d2_5_img.src}
+                                    data-holder-rendered="true"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- endloop -->
+                </div>
+            </div>
+        </div>
     </div>
 </BaseLayout>
