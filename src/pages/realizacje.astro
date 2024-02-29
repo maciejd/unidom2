@@ -40,6 +40,16 @@ import d4_4_img from "../assets/realizacje/d4-4.jpg";
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
+                <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+                <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
@@ -82,6 +92,26 @@ import d4_4_img from "../assets/realizacje/d4-4.jpg";
                     <h4>Dom parterowy z poddaszem użytkowym</h4>
                 </div>
             </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img
+                    src={d1_1_img.src}
+                    class="d-block w-100"
+                    alt="Dom parterowy 1"
+                />
+                <div class="carousel-caption text-right d-none d-md-block">
+                    <h4>Dom parterowy</h4>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img
+                    src={d1_4_img.src}
+                    class="d-block w-100"
+                    alt="Dom parterowy 2"
+                />
+                <div class="carousel-caption text-right d-none d-md-block">
+                    <h4>Dom parterowy</h4>
+                </div>
+            </div>
         </div>
         <button
             class="carousel-control-prev"
@@ -103,11 +133,10 @@ import d4_4_img from "../assets/realizacje/d4-4.jpg";
         </button>
     </div>
     <div class="container marketing d-block d-md-none">
-        <div class="row mt-5"></div>
+        <div class="row mt-5 mb-3"></div>
         <div class="row">
-            <!-- loop -->
-            <div class="col-sm-12 mt-3">
-                <div class="card">
+            <div class="col-sm-12 mb-6">
+                <div class="card mb-3">
                     <img
                         class="card-img-top"
                         alt=""
@@ -115,36 +144,45 @@ import d4_4_img from "../assets/realizacje/d4-4.jpg";
                         data-holder-rendered="true"
                     />
                 </div>
-                <div class="col-sm-12 mt-3">
-                    <div class="card">
-                        <img
-                            class="card-img-top"
-                            alt=""
-                            src={d4_2_img.src}
-                            data-holder-rendered="true"
-                        />
-                    </div>
-                    <div class="col-sm-12 mt-3">
-                        <div class="card">
-                            <img
-                                class="card-img-top"
-                                alt=""
-                                src={d2_4_img.src}
-                                data-holder-rendered="true"
-                            />
-                        </div>
-                        <div class="col-sm-12 mt-3">
-                            <div class="card">
-                                <img
-                                    class="card-img-top"
-                                    alt=""
-                                    src={d2_5_img.src}
-                                    data-holder-rendered="true"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <!-- endloop -->
+                <div class="card mb-3">
+                    <img
+                        class="card-img-top"
+                        alt=""
+                        src={d4_2_img.src}
+                        data-holder-rendered="true"
+                    />
+                </div>
+                <div class="card mb-3">
+                    <img
+                        class="card-img-top"
+                        alt=""
+                        src={d2_4_img.src}
+                        data-holder-rendered="true"
+                    />
+                </div>
+                <div class="card mb-3">
+                    <img
+                        class="card-img-top"
+                        alt=""
+                        src={d2_5_img.src}
+                        data-holder-rendered="true"
+                    />
+                </div>
+                <div class="card mb-3">
+                    <img
+                        class="card-img-top"
+                        alt=""
+                        src={d1_1_img.src}
+                        data-holder-rendered="true"
+                    />
+                </div>
+                <div class="card mb-3">
+                    <img
+                        class="card-img-top"
+                        alt=""
+                        src={d1_4_img.src}
+                        data-holder-rendered="true"
+                    />
                 </div>
             </div>
         </div>
